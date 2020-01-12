@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testGit", "testGit\testGit.csproj", "{52B5D375-1D96-48B3-A285-57C85986BB4B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "exercises", "exercises", "{9A9E08F7-559E-4D56-8576-A8B98841A697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{6AF1CC1A-D1F1-44BD-BD6B-3F46AF08756D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{52B5D375-1D96-48B3-A285-57C85986BB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52B5D375-1D96-48B3-A285-57C85986BB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52B5D375-1D96-48B3-A285-57C85986BB4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF1CC1A-D1F1-44BD-BD6B-3F46AF08756D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF1CC1A-D1F1-44BD-BD6B-3F46AF08756D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF1CC1A-D1F1-44BD-BD6B-3F46AF08756D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF1CC1A-D1F1-44BD-BD6B-3F46AF08756D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6AF1CC1A-D1F1-44BD-BD6B-3F46AF08756D} = {9A9E08F7-559E-4D56-8576-A8B98841A697}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {89AF4EB6-3AD3-4755-B7FA-853AE9E12429}
